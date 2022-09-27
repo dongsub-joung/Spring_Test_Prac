@@ -1,0 +1,14 @@
+### Send POST request with json body
+POST https://localhost:8080/api/memos
+Content-Type: application/json
+
+{
+  "member": "member",
+  "roomName": "0",
+  "content": "asdf",
+  "category": "category"
+}
+
+### GET request with a header
+GET https://localhost:8080/api/memos
+Accept: application/json
